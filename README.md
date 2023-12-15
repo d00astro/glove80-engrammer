@@ -25,6 +25,7 @@ My highly personal modifications include:
   - Opening parenthesis shifts to opening curly braces: `(` -> `{`
 - Remove layers that I don't use: Dvorak, Colemak, QWERTY, etc
 - Combined "World" and Emoji layer.
+- Added dearly missed emoji's like Mr Poopy McPoopface (💩) and friends.
 - Changed the default and and modifiers for "world" characters, most notably putting "diaeresis" (`Ä`, `Ë`, `Ï`, `Ö`, `Ü` and `Ÿ`) as default in order to simplify typing Swedish characters (`Å`, `Ä` and `Ö`)
 
 \* Also true for both Symbol and Number layers

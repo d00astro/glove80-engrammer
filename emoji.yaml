@@ -1,3 +1,118 @@
+# common - thumb, left
+thumbs_up: "👍"
+pray: "🙏"
+fingers_crossed: "🤞"
+thinking: "🤔"
+person_shrugging: "🤷"
+point_up: "☝️"
+point_right: "👉"
+
+# common - thumb, right
+smiley: "🙂"
+laugh: "😄"
+joy: "😂"
+rofl: "🤣"
+sweat_smile: "😅"
+cold_sweat: "😰"
+scream: "😱"
+doh: "😖"
+
+# love - ring finger, upper 
+heart: "️❤️"
+sparkly_heart: "💖"
+two_hearts: "💕"
+blue_heart: "🩵"
+heart_eyes: "😍"
+in_love: "🥰"
+kissed: "😘"
+
+# celebrate - long finger, upper row
+tada: "🎉"
+party_face: "🥳"
+flowers: "💐"
+cheers_champagne: "🥂"
+cheers_beer: "🍻"
+cake: "🎂"
+present: "🎁"
+
+# power - index finger, upper
+rocket: "🚀"
+100: "💯"
+fire: "🔥"
+muscle: "💪"
+exploding_head: "🤯"
+sunglasses: "😎"
+star_struck: "🤩"
+
+# positive - index finger, upper left 
+checkoff: "✅"
+ok_hand: "👌"
+snap_fingers: "🫰"
+raised_hands: "🙌"
+sparkles: "✨"
+nerd: "🤓"
+hugging_face: "🤗"
+
+# neutral - index finger, left
+eyes: "👀"
+question: "❓"
+trademark: "™️"
+copyright: "©️"
+tools: "🛠️"
+pencil: "✏️"
+save: "💾"
+
+# negative - index finger, lower
+x: "❌"
+warning: "⚠️"
+death: "💀"
+poop: "💩"
+pinched: "🤌"
+disappointed: "😞"
+gah: "😫"
+
+# ridicule - long finger, lower
+monkey: "🐒"
+monkey_face: "🐵"
+monkey_see: "🙈"
+monkey_say: "🙊"
+monkey_hear: "🙉"
+clown: "🤡"
+facepalm: "🤦"
+
+# foods - pinky finger, upper
+burger: "🍔"
+pizza: "🍕"
+noodles: "🍜"
+salad: "🥗"
+sushi: "🍱"
+taco: "🌮"
+chocolate: "🍫"
+
+# naughty - pinky finger, upper left
+aubergine: "🍆"
+banana: "🍌"
+squirt: "💦"
+peach: "🍑"
+kiss_lips: "💋"
+bite_lips: "🫦"
+tongue: "👅"
+
+# flags - TBC
+sweden: "🇸🇪"
+singapore: "🇸🇬"
+france: "🇫🇷"
+uk: "🇬🇧"
+usa: "🇺🇸"
+china: "🇨🇳"
+pirate: "🏴‍☠️"
+
+# other
+# 👈👇
+# 😬🥲
+
+# Not used - Legacy from Sunaku's original layout
+
 # modifiers
 zwj: "\u200d"
 male_sign: "♂️"
@@ -28,58 +143,19 @@ curly_hair: "🦱"
 red_hair: "🦰"
 bald: "🦲"
 
-# function row
+# moons
 new_moon: "🌑"
 waxing_crescent_moon: "🌒"
 first_quarter_moon: "🌓"
 waxing_gibbous_moon: "🌔"
 full_moon: "🌕"
 
-# number row
-tada: "🎉"
-fire: "🔥"
-heart: "️❤️"
-muscle: "💪"
-person_climbing: "🧗"
-rocket: "🚀"
-
-# upper row
-sunglasses: "😎"
-star_struck: "🤩"
-joy: "😂"
-cold_sweat: "😰"
-scream: "😱"
-exploding_head: "🤯"
-
-# home row
-snap_fingers: "🫰"
-ok_hand: "👌"
-pray: "🙏"
-sweat_smile: "😅"
-disappointed: "😞"
-thinking: "🤔"
-
-# lower row
+# gestures
 person_tipping_hand: "💁"
 person_gesturing_ok: "🙆"
 person_bowing: "🙇"
 person_raising_hand: "🙋"
 person_gesturing_no: "🙅"
-person_shrugging: "🤷"
 
-# bottom row
-checkoff: "✅"
-100: "💯"
-warning: "⚠️"
-x: "❌"
-question: "❓"
-
-# thumb cluster upper arc
 astronaut:  "🧑‍🚀"
-nerd: "🤓"
-sparkles: "✨"
-
-# thumb cluster lower arc
-raised_hands: "🙌"
-point_up: "☝️"
-thumbs_up: "👍"
+person_climbing: "🧗"
