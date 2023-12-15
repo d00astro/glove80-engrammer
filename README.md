@@ -1,20 +1,35 @@
 # "Inglorious Engrammer" keymap for MoErgo Glove80
 
 Engram-based Keyboard layout for [MoErgo's Glove80][1].
-I call it the "Inglourious Engrrammer", because it is basically just a slightly modified, and for most people likely inferior, version of [Suraj N. Kurapati's (a.k.a Sunaku) "Glourious Engrammer"][2] brilliant keymap for the same device.
+I call it the "Inglourious Engrammer", because it is basically just a slightly modified, and for most people likely inferior, version of [Suraj N. Kurapati's "Glourious Engrammer"][2] keymap for the same device.
 
-Sunaku's layout is an incredibly well thought-through version of [Arno’s Engram][3] layout, with [Miryoku][4]-style layers and [home row mods][5].
+Sunaku's layout is a brilliant and incredibly well thought-through version of [Arno’s Engram][3] layout, with [Miryoku][4]-style layers and [home row mods][5].
 
-### Modifications
+### My Modifications
 
 My highly personal modifications include:
 
 - Use of fewer keys, so that it could be lift-and-shift'ed over to smaller form-factor and more travel friendly keyboards such as ZSA Voyager.
 - Avoid keys that I find uncomfortable. Most notably all the keys in the corners of each hand cluster.
+- Completely different Symbol placement on both top layer and dedicated symbol layer.
 - Number and Symbol layers switched sides. I need the number pad to be operated with my left hand, since in my job I need to operate the mouse while typing numbers.
+- Number layer has shift-mods that are similar, but not quite same as the original Engram number shift-mods. Focusing on left-hand accessibility of symbols needed in conjunction with numbers.
+- Switched sides for period/full-stop (`.`) with comma (`,`), also because I want period on the same side as my number keys.
+- Switched sides for semi-colon (`;`) with quotation mark (`'`), also because I want my colons on the same side as my number keys.
+- Altered switch-mods for certain characters on top layer:
+  - Period/full-stop shifts to exclamation point: `.` -> `!`
+  - Comma shifts to question mark: `,` -> `?`
+  - Forward slash shifts to backward slash\*: `/` -> `\`
+  - Equality sign shifts to ampersand\*\*: `=` -> `&`
+  - Closing parenthesis shifts to closing curly braces: `)` -> `}`
+  - Opening parenthesis shifts to opening curly braces: `(` -> `{`
 - Remove layers that I don't use: Dvorak, Colemak, QWERTY, etc
 - Combined "World" and Emoji layer.
-- Changed the default and and modifiers for "world" characters, most notably putting "diaeresis" (Ä, Ë, Ï, Ö, Ü and Ÿ) as default in order to simplify typing Swedish characters (Å, Ä and Ö)
+- Changed the default and and modifiers for "world" characters, most notably putting "diaeresis" (`Ä`, `Ë`, `Ï`, `Ö`, `Ü` and `Ÿ`) as default in order to simplify typing Swedish characters (`Å`, `Ä` and `Ö`)
+
+\* Also true for both Symbol and Number layers
+
+\*\* Also true for Number layer
 
 > ![Photograph of my Glove80 with Engrammer layout](https://raw.githubusercontent.com/sunaku/sunaku.github.io/master/moergo-glove80-keyboard-photograph.jpg)
 
