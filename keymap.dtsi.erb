@@ -4,7 +4,10 @@
 // /* EXAMPLE: */  #define EMOJI_HAIR_STYLE_PRESET 3 // curly_hair  //
 //////////////////////////////////////////////////////////////////////
 //
-// Sunaku's Keymap v31 -- "Glorious Engrammer"
+// Anders' Glove80 keymap -- "Inglorious Engrammer"
+// - https://github.com/d00astro/glove80-engrammer
+// 
+// Modification of Sunaku's Keymap v31 -- "Glorious Engrammer"
 // - https://github.com/sunaku/glove80-keymaps
 //
 //////////////////////////////////////////////////////////////////////
@@ -253,6 +256,16 @@ behaviors {
         bindings = <&mo>, <&kp>;
     };
 
+    th: tap_hold { // like hold-tap, but prio for tap
+        compatible = "zmk,behavior-hold-tap";
+        label = "TAP_HOLD"; 
+        #binding-cells = <2>;
+        tapping-term-ms = <500>;
+        quick_tap_ms = <250>;
+        flavor = "tap-preferred";
+        bindings = <&kp>, <&kp>;
+    };
+
     //////////////////////////////////////////////////////////////////////////
     //
     // Custom shifted pairs
@@ -269,6 +282,145 @@ behaviors {
         bindings = <&caps_word>, <&kp CAPSLOCK>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
+
+    //
+    // Anders custom shift-mods / shifted pairs
+    //
+    custom_slash: custom_slash_and_backslash {
+      compatible = "zmk,behavior-mod-morph";
+      label = "CUSTOM_SLASH_AND_BACKSLASH";
+      #binding-cells = <0>;
+      bindings = <&kp SLASH>, <&kp BACKSLASH>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    custom_equal: custom_equal_and_ampersand {
+      compatible = "zmk,behavior-mod-morph";
+      label = "CUSTOM_EQUAL_AND_AMPERSAND";
+      #binding-cells = <0>;
+      bindings = <&kp EQUAL>, <&kp AMPERSAND>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    custom_period: custom_period_and_exclamation {
+      compatible = "zmk,behavior-mod-morph";
+      label = "CUSTOM_PERIOD_AND_EXCLAMATION";
+      #binding-cells = <0>;
+      bindings = <&kp PERIOD>, <&kp EXCLAMATION>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    custom_comma: custom_comma_and_question {
+      compatible = "zmk,behavior-mod-morph";
+      label = "CUSTOM_COMMA_AND_QUESTION";
+      #binding-cells = <0>;
+      bindings = <&kp COMMA>, <&kp QUESTION>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    custom_right_paren: custom_right_paren_and_brace {
+      compatible = "zmk,behavior-mod-morph";
+      label = "CUSTOM_RIGHT_PAREN_AND_BRACE";
+      #binding-cells = <0>;
+      bindings = <&kp RIGHT_PARENTHESIS>, <&kp RIGHT_BRACE>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    custom_left_paren: custom_left_paren_and_brace {
+      compatible = "zmk,behavior-mod-morph";
+      label = "CUSTOM_LEFT_PAREN_AND_BRACE";
+      #binding-cells = <0>;
+      bindings = <&kp LEFT_PARENTHESIS>, <&kp LEFT_BRACE>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    custom_zero: custom_zero_and_one {
+      compatible = "zmk,behavior-mod-morph";
+      label = "CUSTOM_ZERO_AND_ONE";
+      #binding-cells = <0>;
+      bindings = <&kp N0>, <&kp N1>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    custom_grave: custom_grave_double_quotes {
+      compatible = "zmk,behavior-mod-morph";
+      label = "CUSTOM_GRAVE_AND_DOUBLE_QUOTES";
+      #binding-cells = <0>;
+      bindings = <&kp GRAVE>, <&kp DOUBLE_QUOTES>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    custom_plus: custom_plus_and_hash {
+      compatible = "zmk,behavior-mod-morph";
+      label = "CUSTOM_PLUS_AND_HASH";
+      #binding-cells = <0>;
+      bindings = <&kp PLUS>, <&kp HASH>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    custom_asterisk: custom_asterisk_and_exclamation {
+      compatible = "zmk,behavior-mod-morph";
+      label = "CUSTOM_ASTERISK_AND_EXCLAMATION";
+      #binding-cells = <0>;
+      bindings = <&kp ASTERISK>, <&kp EXCLAMATION>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    num_1: num_one_and_pipe {
+        compatible = "zmk,behavior-mod-morph";
+        label = "NUM_ONE_AND_PIPE";
+        #binding-cells = <0>;
+        bindings = <&kp N1>, <&kp PIPE>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    num_2: num_two_and_question {
+      compatible = "zmk,behavior-mod-morph";
+      label = "NUM_TWO_AND_QUESTION";
+      #binding-cells = <0>;
+      bindings = <&kp N2>, <&kp QUESTION>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    num_3: num_three_and_at {
+        compatible = "zmk,behavior-mod-morph";
+        label = "NUM_THREE_AND_AT";
+        #binding-cells = <0>;
+        bindings = <&kp N3>, <&kp AT>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    num_4: num_four_and_left_parenthesis {
+        compatible = "zmk,behavior-mod-morph";
+        label = "NUM_FOUR_AND_LEFT_PARENTHESIS";
+        #binding-cells = <0>;
+        bindings = <&kp N4>, <&kp LEFT_PARENTHESIS>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    num_5: num_five_and_right_parenthesis {
+        compatible = "zmk,behavior-mod-morph";
+        label = "NUM_FIVE_AND_RIGHT_PARENTHESIS";
+        #binding-cells = <0>;
+        bindings = <&kp N5>, <&kp RIGHT_PARENTHESIS>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    num_6: num_six_and_less_than {
+        compatible = "zmk,behavior-mod-morph";
+        label = "NUM_SIX_AND_LESS_THAN";
+        #binding-cells = <0>;
+        bindings = <&kp N6>, <&kp LESS_THAN>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    num_7: num_seven_and_caret {
+        compatible = "zmk,behavior-mod-morph";
+        label = "NUM_SEVEN_AND_CARET";
+        #binding-cells = <0>;
+        bindings = <&kp N7>, <&kp CARET>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    num_8: num_eight_and_dollar {
+        compatible = "zmk,behavior-mod-morph";
+        label = "NUM_EIGHT_AND_DOLLAR";
+        #binding-cells = <0>;
+        bindings = <&kp N8>, <&kp DOLLAR>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    num_9: num_nine_and_percent {
+        compatible = "zmk,behavior-mod-morph";
+        label = "NUM_NINE_AND_PERCENT";
+        #binding-cells = <0>;
+        bindings = <&kp N9>, <&kp PERCENT>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+
 
     //
     // Custom shifted pairs for the Engram layout

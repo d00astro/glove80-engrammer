@@ -42,7 +42,10 @@ My highly personal modifications include:
 
 ## Keymaps
 
-Sunaku's original:
+My version:
+https://my.glove80.com/#/layout/user/25a97749-db1d-409e-a420-7b4b4ee713e3
+
+Sunaku's original (v31):
 https://my.glove80.com/#/layout/user/11c0c992-aa4c-4668-9603-456e4558af24
 
 ## Installing
