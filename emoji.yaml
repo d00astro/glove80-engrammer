@@ -1,11 +1,12 @@
 # common - thumb, left
 thumbs_up: "👍"
-pray: "🙏"
-fingers_crossed: "🤞"
-thinking: "🤔"
-person_shrugging: "🤷"
 point_up: "☝️"
 point_right: "👉"
+fingers_crossed: "🤞"
+pray: "🙏"
+thinking: "🤔"
+person_shrugging: "🤷"
+
 
 # common - thumb, right
 smiley: "🙂"
@@ -19,8 +20,8 @@ doh: "😖"
 
 # love - ring finger, upper 
 heart: "️❤️"
-sparkly_heart: "💖"
 two_hearts: "💕"
+sparkly_heart: "💖"
 blue_heart: "🩵"
 heart_eyes: "😍"
 in_love: "🥰"
@@ -29,11 +30,11 @@ kissed: "😘"
 # celebrate - long finger, upper row
 tada: "🎉"
 party_face: "🥳"
-flowers: "💐"
 cheers_champagne: "🥂"
 cheers_beer: "🍻"
 cake: "🎂"
 present: "🎁"
+flowers: "💐"
 
 # power - index finger, upper
 rocket: "🚀"
@@ -92,11 +93,11 @@ chocolate: "🍫"
 # naughty - pinky finger, upper left
 aubergine: "🍆"
 banana: "🍌"
-squirt: "💦"
 peach: "🍑"
 kiss_lips: "💋"
 bite_lips: "🫦"
 tongue: "👅"
+squirt: "💦"
 
 # flags - TBC
 sweden: "🇸🇪"
