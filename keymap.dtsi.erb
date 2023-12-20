@@ -37,7 +37,7 @@ behaviors {
     // (i.e. "register" them) for mod-click mouse usage (e.g. Ctrl-Click).
     //
     #ifndef HOMEY_HOLDING_TIME
-    #define HOMEY_HOLDING_TIME 270 // TAPPING_TERM + ALLOW_CROSSOVER_AFTER
+    #define HOMEY_HOLDING_TIME 300 // TAPPING_TERM + ALLOW_CROSSOVER_AFTER
     #endif
 
     //
@@ -84,7 +84,7 @@ behaviors {
     // perform outward rolls from your index fingers toward your pinkies.
     //
     #ifndef SHIFT_HOLDING_TIME
-    #define SHIFT_HOLDING_TIME 170
+    #define SHIFT_HOLDING_TIME 220
     #endif
 
     //
@@ -93,7 +93,7 @@ behaviors {
     // unintended activation of home row mods when you're actively typing.
     //
     #ifndef SHIFT_STREAK_DECAY
-    #define SHIFT_STREAK_DECAY 70 // global-quick-tap-ms
+    #define SHIFT_STREAK_DECAY 150 // global-quick-tap-ms
     #endif
 
     //
@@ -137,7 +137,7 @@ behaviors {
     // the space thumb key to activate.  Shorter holds are treated as taps.
     //
     #ifndef SPACE_HOLDING_TIME
-    #define SPACE_HOLDING_TIME 170
+    #define SPACE_HOLDING_TIME 200
     #endif
 
     //
@@ -256,12 +256,24 @@ behaviors {
         bindings = <&mo>, <&kp>;
     };
 
+    thumbtaphold: thumb_tap_hold {
+        compatible = "zmk,behavior-hold-tap";
+        label = "THUMB_TAP_HOLD"; 
+        flavor = "hold-preferred";  
+        tapping-term-ms = <200>;
+        quick_tap_ms = <300>;
+        retro-tap; // allow slow (hold-like) taps
+        #binding-cells = <2>;
+        bindings = <&kp>, <&kp>;
+    };
+
+
     th: tap_hold { // like hold-tap, but prio for tap
         compatible = "zmk,behavior-hold-tap";
         label = "TAP_HOLD"; 
         #binding-cells = <2>;
-        tapping-term-ms = <500>;
-        quick_tap_ms = <250>;
+        tapping-term-ms = <200>;
+        quick_tap_ms = <300>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
